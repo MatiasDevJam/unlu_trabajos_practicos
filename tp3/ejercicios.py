@@ -77,3 +77,35 @@ b = 5
 b,a = a,b
 
 print(a,b)
+
+# --------------------------------------------------------------------------------
+
+# 8. Escriba un algoritmo que, conociendo las notas de los dos parciales de un
+# alumno de la asignatura Introducción a la Programación, muestre en
+# pantalla su promedio.
+
+nota1 = 8
+nota2 = 7
+nota3 = 9
+
+promedio = ((nota1 + nota2 + nota3) / 3)
+
+print(promedio)
+
+# --------------------------------------------------------------------------------
+
+# 9. Cree un script que, sabiendo cuántos pesos argentinos tiene una persona
+# ahorrada en su cuenta (almacenando ese monto en una variable), muestre
+# en pantalla los montos convertidos en dólares (U$1 = $80.5), reales ($R1 =
+# $14.1), y euros (€1 = $69.5). La salida del programa debe tener el siguiente
+# formato:
+
+ahorro = 300
+dolar = 80.5
+reales = 14.1
+euros = 69.5
+
+print(f"Usted tiene ${ahorro} pesos argentinos, los cuales se convierten en:")
+print(f"- U${ahorro / dolar} dólares.")
+print(f"- R${ahorro / reales} reales.")
+print(f"- €{ahorro / euros} euros.")
